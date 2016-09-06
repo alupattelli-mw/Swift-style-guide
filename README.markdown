@@ -8,10 +8,9 @@ Our overarching goals are conciseness, readability, and simplicity.
 * [Naming](#naming)
   * [Protocols](#protocols)
   * [Enumerations](#enumerations)
-  * [Prose](#prose)
+  * [Class Prefixes](#class-prefixes)
   * [Selectors](#selectors)
   * [Generics](#generics)
-  * [Class Prefixes](#class-prefixes)
   * [Language](#language)
 * [Code Organization](#code-organization)
   * [Protocol Conformance](#protocol-conformance)
@@ -21,7 +20,6 @@ Our overarching goals are conciseness, readability, and simplicity.
 * [Comments](#comments)
 * [Classes and Structures](#classes-and-structures)
   * [Use of Self](#use-of-self)
-  * [Protocol Conformance](#protocol-conformance)
   * [Computed Properties](#computed-properties)
   * [Final](#final)
 * [Function Declarations](#function-declarations)
@@ -33,16 +31,18 @@ Our overarching goals are conciseness, readability, and simplicity.
   * [Struct Initializers](#struct-initializers)
   * [Lazy Initialization](#lazy-initialization)
   * [Type Inference](#type-inference)
+  * [Type Annotation for Empty Arrays and Dictionaries](#type-annotation-for-empty-arrays-and-dictionaries)
   * [Syntactic Sugar](#syntactic-sugar)
 * [Functions vs Methods](#functions-vs-methods)
 * [Memory Management](#memory-management)
-  * [Extending Lifetime](#extending-lifetime)
+  * [Extending Lifetime](#extending-object-lifetime)
 * [Access Control](#access-control)
 * [Control Flow](#control-flow)
 * [Golden Path](#golden-path)
   * [Failing Guards](#failing-guards)
 * [Semicolons](#semicolons)
 * [Parentheses](#parentheses)
+* [References](#references)
 
 
 ## Correctness
@@ -913,6 +913,8 @@ if (name == "Hello") {
   print("World")
 }
 ```
+
+## References
 
 Apple’s reference material on Swift:
 
